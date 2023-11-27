@@ -13,8 +13,9 @@ see also <a href ="https://fennaf.gitbook.io/bfvm22prog1/">gitbook link</a>
 # Create a virtualenv
 Login the linux grid. Open the terminal. Choose a path and a name for your virtual environment, for instance `.venv/dsls`
 
-#create a new environment
+
 ```
+#create a new environment
 python3 -m venv {path/to/new/virtual/environment} {name}
 
 #activate the virtualenv
