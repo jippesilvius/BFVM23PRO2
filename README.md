@@ -10,7 +10,7 @@ see also <a href ="https://fennaf.gitbook.io/bfvm22prog1/">gitbook link</a>
 - `tutorials` folder: Tutorials for specific topics
 
 
-# Create a virtualenv
+# Create a virtual environment to install your packages
 Login the linux grid. Open the terminal. Choose a path and a name for your virtual environment, for instance `.venv/dsls`
 
 
