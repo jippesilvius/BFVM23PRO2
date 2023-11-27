@@ -1,4 +1,4 @@
-# BFVM22PROG1
+# BFVM23PROG2
 
 Programming 1 course for DSLS
 
