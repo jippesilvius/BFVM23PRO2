@@ -10,18 +10,28 @@ see also <a href ="https://fennaf.gitbook.io/bfvm22prog1/">gitbook link</a>
 - `tutorials` folder: Tutorials for specific topics
 
 
+# Create a virtualenv
+Login the linux grid. Open the terminal. Choose a path and a name for your virtual environment, for instance `.venv/dsls`
 
-# Activate virtual environment
-Login the linux grid. 
-Run the following code in your terminal 
+#create a new environment
 ```
-source /commons/conda/conda_load.sh
+python3 -m venv {path/to/new/virtual/environment} {name}
+
+#activate the virtualenv
+source {path/to/new/virtual/environment}{name}/bin/activate 
+
+#create jupyter notebook kernel for venv
+pip install ipykernel
+python -m ipykernel install --user --name={name}
+pip install jupyter
+
+#install required packages
+pip install numpy
+pip install pandas
+pip install seaborn
+pip install bokeh
 ```
 
-#run jupyter notebook
-```
-jupyter notebook
-```
-make sure that you use the dsls kernel in your jupyter notebook
+make sure that you use the created kernel in your jupyter notebook or visual studio code
 
 contact information: f.feenstra@pl.hanze.nl
